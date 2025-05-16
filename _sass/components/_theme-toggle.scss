@@ -1,0 +1,33 @@
+// *------------------------------------*\
+// Components
+// *------------------------------------*/
+
+.toggles-container {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.c-theme-toggle {
+  position: relative;
+  top: 8px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  vertical-align: middle;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+

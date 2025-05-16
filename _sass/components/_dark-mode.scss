@@ -2,16 +2,56 @@
 // Components
 // *------------------------------------*/
 
+// Light color variables
+$color-text-light: #eeeeee;
+$color-link-light: #90caf9;
+
+body.dark-mode .c-off-canvas-toggle__icon {
+  background-color: #eee; // or use $color-text-light
+}
+
+body.dark-mode {
+  /* Override inline color on these publication titles */
+  span[style*="color:#614e43"] {
+    color: #b7d2f0 !important;  /* light text color for dark mode */
+  }
+}
+
 body.dark-mode {
   background-color: #121212;
-  color: #ffffff;
-}
+  color: $color-text-light;
 
-.dark-mode a {
-  color: #90caf9;
-}
+  // Global text elements
+  a,
+  .c-nav__link,
+  .c-logo__link,
+  .c-footer,
+  .c-header,
+  .c-off-canvas-content {
+    color: $color-link-light;
+  }
 
-/* Example element override */
-.dark-mode header {
-  background-color: #1e1e1e;
+  // Link hover states
+  a:hover,
+  a:focus,
+  .c-nav__link:hover,
+  .c-logo__link:hover {
+    color: $color-link-hover;
+  }
+
+  // Backgrounds
+  .c-header,
+  .c-footer,
+  .c-off-canvas-content {
+    background-color: #1e1e1e;
+  }
+
+  // Social icons
+  .c-social-nav__icon {
+    fill: $color-link-light;
+
+    &:hover {
+      fill: $color-link-hover;
+    }
+  }
 }

@@ -13,10 +13,31 @@
     {% include footer.html %}
   </div>
 
-  <script src="{{ '/js/jquery-3.1.1.min.js' | prepend: site.baseurl }}"> </script>
-  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}">   </script>
-  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}">   </script>
-  <script src="{{ '/js/app.js' | prepend: site.baseurl }}">              </script>
+  <script src="{{ '/js/jquery-3.1.1.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/app.js' | prepend: site.baseurl }}"></script>
+
+  <!-- Dark mode toggle script -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const toggleButton = document.getElementById('theme-toggle');
+      const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+      const storedTheme = localStorage.getItem("theme");
+      if (storedTheme === "dark" || (prefersDarkScheme.matches && !storedTheme)) {
+        document.body.classList.add("dark-mode");
+      }
+
+      if (toggleButton) {
+        toggleButton.addEventListener("click", function () {
+          document.body.classList.toggle("dark-mode");
+          const isDark = document.body.classList.contains("dark-mode");
+          localStorage.setItem("theme", isDark ? "dark" : "light");
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
