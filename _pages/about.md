@@ -2,13 +2,13 @@
 layout: index
 navigation: About
 title: " "
-image: '/images/pages/IMG_4270.jpeg'
+image: '/images/pages/profile-picture.jpg'
 ---
-Hi! I am a fourth-year PhD student in [**Machine Learning**](https://www.ml.cmu.edu/) at Carnegie Mellon University. I am fortunate to be advised by [**Zico Kolter**](https://zicokolter.com/) and  [**Aditi Raghunathan**](https://www.cs.cmu.edu/~aditirag/) . I completed my 5th year Master's at UC Berkeley advised by [**Yi Ma**](https://people.eecs.berkeley.edu/~yima/). Previously, I received my B.S. in Electrical Engineering and Computer Science at UC Berkeley with a minor in Bioengineering.
+Ciao! I am a Postdoctoral Researcher in the [**MLO Group**](https://mlo-lab.github.io/) lead by Prof. Florian Buettner at Goethe University Frankfurt (Germany). Prior to joining the group, I was granted a Marie Skłodowska-Curie Actions-ITN fellowship for my industrial doctorate in Computer Science at the [**University of Birmingham**](https://www.birmingham.ac.uk/schools/computer-science/postgraduate-research) (UK) under the supervision of Prof. Peter Tiňo and Prof. Xin Yao. During this period, I was a full-time early-stage researcher at [**NEC Labs Europe**](https://neclab.eu/) (Heidelberg, Germany) in the Machine Learning group led by Prof. Mathias Niepert. I received my BSc in Statistics and my MSc in Data Science at Sapienza, University of Rome (Italy).
 
-I interested in robust ML and understanding deep learning through scientific methods. My research focuses on understanding the **out-of-distribution and long-tail behaviors** of models. To this end, I have worked on strategies for model assessment under real-world shifts with limited labeled data. Lately, I've been interested in building **robust agents** by understanding how undesired behaviors trace back to errors that snowball across training, inference, and interaction. 
+During my PhD, my research goal was to develop and discover new approaches and methods for increasing the **interpretability of** representation learning techniques and **black-box models**. Now, I am working on developing **trustworthy** solutions in **federated** and **continual learning** settings. The project is part of the [*OpenFLaaS (Open Federated Learning as a Service)*](https://openflaas.de/) consortium including several partners across Germany and funded by BMWk (Bundesministerium für Wirtschaft und Klimaschutz).
 
-Email: kbaek@andrew.cmu.edu \
-[Publications](https://kebaek.github.io/publications.html) / [Google Scholar](https://scholar.google.com/citations?user=8jVzL_YAAAAJ&hl=en) / [CV](https://kebaek.github.io/data/Baek_Resume.pdf)
+Email: serra@med.uni-frankfurt.de \
+[Publications]({{ '/publications/' | relative_url }}) / [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=en) 
 
-<sub>Last updated Jan 22, 2025 </sub>
+<sub>Last updated May 15, 2025 </sub>

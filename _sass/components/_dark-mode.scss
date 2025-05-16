@@ -1,0 +1,17 @@
+// *------------------------------------*\
+// Components
+// *------------------------------------*/
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode a {
+  color: #90caf9;
+}
+
+/* Example element override */
+.dark-mode header {
+  background-color: #1e1e1e;
+}
