@@ -22,21 +22,31 @@
   <script>
     window.addEventListener("DOMContentLoaded", () => {
       const toggleButton = document.getElementById('theme-toggle');
+      const sunIcon = document.getElementById('icon-light');  // sun icon
+      const moonIcon = document.getElementById('icon-dark');  // moon icon
       const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-
       const storedTheme = localStorage.getItem("theme");
-      if (storedTheme === "dark" || (prefersDarkScheme.matches && !storedTheme)) {
-        document.body.classList.add("dark-mode");
+
+      const isDarkInit = storedTheme === "dark" || (prefersDarkScheme.matches && !storedTheme);
+      if (isDarkInit) document.body.classList.add("dark-mode");
+
+      function updateIcon(isDark) {
+        // Show moon icon when light mode active (i.e., !isDark)
+        // Show sun icon when dark mode active (i.e., isDark)
+        moonIcon.style.display = isDark ? "none" : "block";  // moon visible in light mode
+        sunIcon.style.display = isDark ? "block" : "none";   // sun visible in dark mode
       }
 
-      if (toggleButton) {
-        toggleButton.addEventListener("click", function () {
-          document.body.classList.toggle("dark-mode");
-          const isDark = document.body.classList.contains("dark-mode");
-          localStorage.setItem("theme", isDark ? "dark" : "light");
-        });
-      }
+      updateIcon(isDarkInit);
+
+      toggleButton?.addEventListener("click", function () {
+        const isDark = document.body.classList.toggle("dark-mode");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+        updateIcon(isDark);
+      });
     });
+
+
   </script>
 </body>
 
