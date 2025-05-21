@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 navigation: Publications
-image: '/images/pages/publications.jpg'
+image: '/images/pages/publications.png'
 ---
 See [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=en) for full details.<br/>
 <sub> * denotes equal contribution </sub>
