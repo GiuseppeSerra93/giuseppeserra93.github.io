@@ -9,6 +9,6 @@ Ciao! I am a Postdoctoral Researcher in the [**MLO Group**](https://mlo-lab.gith
 During my PhD, my research goal was to develop and discover new approaches and methods for increasing the **interpretability of** representation learning techniques and **black-box models**. Now, I am working on developing **trustworthy** solutions in **federated** and **continual learning** settings. The project is part of the [*OpenFLaaS (Open Federated Learning as a Service)*](https://openflaas.de/) consortium including several partners across Germany and funded by BMWk (Bundesministerium für Wirtschaft und Klimaschutz).
 
 Email: serra@med.uni-frankfurt.de \
-[Publications]({{ '/publications/' | relative_url }}) / [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=en) 
+[Publications]({{ '/publications.html' | relative_url }}) / [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=en) 
 
 <sub>Last updated May 21, 2025 </sub>
