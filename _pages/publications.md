@@ -7,6 +7,11 @@ image: '/images/pages/publications.png'
 See [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=en) for full details.<br/>
 <sub> * denotes equal contribution </sub>
 
+**<span style="color:#614e43"> DATS: Distance-Aware Temperature Scaling for Calibrated Class-Incremental Learning</span>**
+[\[arxiv\]](https://arxiv.org/abs/2509.21161)<br/> **Giuseppe Serra** and Florian Buettner <br/> 
+<em>  - 2025, Under review <br/>
+
+
 **<span style="color:#614e43"> Federated Continual Learning Goes Online: Uncertainty-Aware Memory Management for Vision Tasks and Beyond</span>**
 [\[openreview\]](https://openreview.net/forum?id=f65RuQgVlp)<br/> **Giuseppe Serra** and Florian Buettner <br/> 
 <em>  - 2025 International Conference on Learning Representations (**ICLR**) <br/>
