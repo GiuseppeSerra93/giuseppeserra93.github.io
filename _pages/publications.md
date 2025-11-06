@@ -24,7 +24,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=e
 **<span style="color:#614e43"> L2XGNN: Learning to Explain Graph Neural Networks</span>**
 [\[arxiv\]](https://arxiv.org/abs/2209.14402)<br/> **Giuseppe Serra** and Mathias Niepert <br/> 
 <em> - 2024 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (**ECML-PKDD**), Journal Track <br/>
-<em> - Machine Learning, Springer US, 6787-6809, 2024 </em>
+<em> - **Machine Learning**, Springer US, 6787-6809, 2024 </em>
 
 **<span style="color:#614e43">An Interpretable Alternative to Neural Representation Learning for Rating Prediction-Transparent Latent Class Modeling of User Reviews</span>** 
 [\[arxiv\]](https://arxiv.org/abs/2407.00063)  <br/> **Giuseppe Serra**, Peter Tiňo, Zhao Xu, and Xin Yao <br/> <em> - 2024 International Joint Conference on Neural Networks (**IJCNN**)</em>
