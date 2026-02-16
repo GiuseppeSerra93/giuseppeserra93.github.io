@@ -8,7 +8,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=okTZ0VgAAAAJ&hl=e
 <sub> * denotes equal contribution </sub>
 
 **<span style="color:#614e43"> Non-Contrastive Vision-Language Learning with Predictive Embedding Alignment</span>**
-[\[arxiv\]](https://arxiv.org/abs/2602.00653)<br/> Lukas Kuhn*, **Giuseppe Serra***, and Florian Buettner <br/> 
+[\[arxiv\]](https://arxiv.org/abs/2602.00653)<br/> Lukas Kuhn<sup>*</sup>, **Giuseppe Serra**<sup>*</sup>, and Florian Buettner <br/> 
 <em>  - 2026, Preprint <br/>
 
 **<span style="color:#614e43"> DATS: Distance-Aware Temperature Scaling for Calibrated Class-Incremental Learning</span>**
